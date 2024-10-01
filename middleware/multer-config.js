@@ -3,11 +3,6 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-const MINE_TYPE = {
-    'image/jpg': 'jpg',
-    'image/jpeg': 'jpg',
-    'image/png': 'jpg'
-};
 console.log('Multer middleware called');
 // storage represent location/directory where images are stored
 // Define the storage engine using multer.diskStorage
