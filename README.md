@@ -28,11 +28,11 @@ Ce projet consiste à développer une API pour un site de notation de livres. L'
 
 1. Clonez ce dépôt sur votre machine :
        
-       git clone https://github.com/votre-utilisateur/projet-livres.git
+       git clone https://github.com/zeldoux/backend.git
    
 2.Accédez au dossier du projet :
    
-       cd projet-livres
+       cd backend
      
 3.Installez les dépendances :
    
@@ -46,3 +46,19 @@ Dans le dossier du projet, vous pouvez utiliser le script suivant pour démarrer
     nodemon start
 
 Cela démarrera le serveur et surveillera les modifications dans les fichiers, redémarrant automatiquement l'application en cas de changement.
+
+
+Dépendances installées et utilisées
+
+    Mongoose : Pour la création de schémas de données et la gestion de la base de données MongoDB.
+        Site officiel : https://mongoosejs.com/
+
+    Sharp : Utilisé pour l'optimisation des images lors de l'upload. Cela permet de compresser les images afin de réduire la taille des fichiers stockés.
+        Site officiel : https://sharp.pixelplumbing.com/
+
+    Multer : Middleware pour gérer l'upload des fichiers dans les requêtes HTTP.
+        Site officiel : https://github.com/expressjs/multer
+
+    Bcrypt : Pour le hachage sécurisé des mots de passe des utilisateurs.
+
+    JsonWebToken (JWT) : Pour la gestion de l'authentification utilisateur via des tokens JWT.
